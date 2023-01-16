@@ -25,7 +25,7 @@ public class Main {
                 int UserInput = input.nextInt();
                 input.nextLine();
 
-                if (UserInput==0 || UserInput>5) throw new IllegalArgumentException("You Entered a number that is not in menu");
+                if (UserInput<0|| UserInput>5) throw new IllegalArgumentException("You Entered a number that is not in menu");
 
                 // choice 1
                 if (UserInput == 1) {
